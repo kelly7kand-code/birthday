@@ -1,0 +1,61 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    padding: 15%;
+    font-family: arial;
+    color: white;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)100%, rgba(9, 17, 84, 0.865)20%), url(p2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+}
+.gallery-container{
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    color: rgb(241, 214, 195);
+    font-family: montserrat;
+}
+.space-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 200px;
+}
+.grid-item{
+    position: relative;
+    overflow:hidden;
+    border-radius: 15px;
+    aspect-ratio: 1/1;
+    box-shadow: 0 5px 20px rgba(2, 16, 26, 0.941);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+}
+.grid-item:hover{
+    transform: scale(5);
+    filter: blur(-2px);
+}
+.grid-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+   
+}
+@media (max-width: 768px){
+    .spac-grid{
+        grid-template-columns: 1fr;
+    }
+}

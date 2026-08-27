@@ -1,0 +1,30 @@
+*{
+    margin-left: 10rem;
+    padding: 5%;
+}
+
+body{
+    text-align: center;
+    margin-left: 3rem;
+
+}
+h1{
+    color: rgb(254, 254, 255);
+    font-family: roboto;
+    font-size: 4em;
+    border-bottom: 1px outset #f9f8f6;
+    border-width: 0.1rem;
+    width: 500px;
+    padding-bottom: 1.5rem;
+
+}
+.back{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgb(0,0,0,0.5)50%), url(p2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    
+}
+}

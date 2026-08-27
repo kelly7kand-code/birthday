@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ground{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)100%, rgba(9, 17, 84, 0.865)20%), url(p2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+}
+p{
+    font-family: arial;
+}
+body{
+    color: #f8fafc;
+    line-height: 0,4;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5%;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(20px);
+
+}
+.logo{
+    font-size: 4rem;
+    padding-top: 0.3rem;
+    font-family: arial;
+    font-weight:bolder;
+    color: #e09808;
+    border: none;
+    border-radius: 9px;
+    width: 180px;
+}
+span{
+    color: #0f172a;
+}
+b{
+    color: rgb(246, 246, 249);
+    font-size: 16px;
+    border: none;
+    
+    border-radius: 2px;
+    border-right-width: 30px #a24c0a;
+    
+}
+.navbar nav a{
+    color: #a24c0a;
+    text-decoration: none;
+    margin-left: 0.4rem;
+    transition: color 0.3s ease;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: arial;
+}
+.navbar nav a:hover{
+    color: #110b07;
+}
+.navbar nav a:active{
+    color: #d48e02;
+}
+.hero-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 5% 5%;
+    min-height: calc(100vh-80px);
+    gap: 4rem;
+}
+.hero-content h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+
+}
+.hero-content p{
+    font-size: 1.1rem;
+    color: #94a3b8;
+    margin-bottom: 2rem;
+}
+.cta-button{
+    background-color: #076993;
+    color: #eaedf4;
+    border: none;
+    font-family: montserrat;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cta-button:hover{
+    background-color: #e99c0e;
+}
+.hero-card{
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    padding: 3rem;
+    box-shadow: 0 20px 40px rgba(82, 185, 245, 0.804);
+    border-radius: 50px;
+}
+.card-inner h3{
+    color: #167da9;
+    margin-bottom: rem;
+    font-family: arial;
+}
+@media (max-width: 768px){ 
+    .hero-content h1{
+        font-size: 2.5rem;
+    }
+}
+span{
+    color: chocolate;
+}
+.img{
+    border-image-width: ;
+
+}
